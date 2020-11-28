@@ -7,23 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DB43D607256E44620056A9BF /* GameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB43D606256E44620056A9BF /* GameController.swift */; };
+		DB43D60B256ECBD40056A9BF /* Sudoko.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB43D60A256ECBD40056A9BF /* Sudoko.swift */; };
 		DB942F3E256AA35300CDA0C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB942F3D256AA35300CDA0C3 /* AppDelegate.swift */; };
 		DB942F40256AA35300CDA0C3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB942F3F256AA35300CDA0C3 /* SceneDelegate.swift */; };
 		DB942F42256AA35300CDA0C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB942F41256AA35300CDA0C3 /* ViewController.swift */; };
 		DB942F45256AA35300CDA0C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB942F43256AA35300CDA0C3 /* Main.storyboard */; };
 		DB942F47256AA35400CDA0C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB942F46256AA35400CDA0C3 /* Assets.xcassets */; };
 		DB942F4A256AA35400CDA0C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB942F48256AA35400CDA0C3 /* LaunchScreen.storyboard */; };
+		DB942F53256AA3F400CDA0C3 /* CellCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB942F52256AA3F400CDA0C3 /* CellCVCell.swift */; };
+		DB942F57256AAF5E00CDA0C3 /* Raster.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB942F56256AAF5E00CDA0C3 /* Raster.swift */; };
+		DB942F5B256AD6A700CDA0C3 /* NumberPad.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB942F5A256AD6A700CDA0C3 /* NumberPad.swift */; };
+		DB9CD4D4256C3AC700356563 /* BoardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9CD4D3256C3AC700356563 /* BoardController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DB43D606256E44620056A9BF /* GameController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameController.swift; sourceTree = "<group>"; };
+		DB43D60A256ECBD40056A9BF /* Sudoko.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sudoko.swift; sourceTree = "<group>"; };
 		DB942F3A256AA35300CDA0C3 /* SudokoGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SudokoGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB942F3D256AA35300CDA0C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DB942F3F256AA35300CDA0C3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DB942F41256AA35300CDA0C3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DB942F41256AA35300CDA0C3 /* ViewController.swift */ = {isa = PBXFileReference; indentWidth = 1; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; tabWidth = 1; };
 		DB942F44256AA35300CDA0C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DB942F46256AA35400CDA0C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB942F49256AA35400CDA0C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DB942F4B256AA35400CDA0C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB942F52256AA3F400CDA0C3 /* CellCVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellCVCell.swift; sourceTree = "<group>"; };
+		DB942F56256AAF5E00CDA0C3 /* Raster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Raster.swift; sourceTree = "<group>"; };
+		DB942F5A256AD6A700CDA0C3 /* NumberPad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberPad.swift; sourceTree = "<group>"; };
+		DB9CD4D3256C3AC700356563 /* BoardController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +71,16 @@
 				DB942F3D256AA35300CDA0C3 /* AppDelegate.swift */,
 				DB942F3F256AA35300CDA0C3 /* SceneDelegate.swift */,
 				DB942F41256AA35300CDA0C3 /* ViewController.swift */,
+				DB43D606256E44620056A9BF /* GameController.swift */,
+				DB43D60A256ECBD40056A9BF /* Sudoko.swift */,
+				DB942F52256AA3F400CDA0C3 /* CellCVCell.swift */,
+				DB942F56256AAF5E00CDA0C3 /* Raster.swift */,
 				DB942F43256AA35300CDA0C3 /* Main.storyboard */,
 				DB942F46256AA35400CDA0C3 /* Assets.xcassets */,
 				DB942F48256AA35400CDA0C3 /* LaunchScreen.storyboard */,
 				DB942F4B256AA35400CDA0C3 /* Info.plist */,
+				DB942F5A256AD6A700CDA0C3 /* NumberPad.swift */,
+				DB9CD4D3256C3AC700356563 /* BoardController.swift */,
 			);
 			path = SudokoGame;
 			sourceTree = "<group>";
@@ -137,8 +155,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB942F5B256AD6A700CDA0C3 /* NumberPad.swift in Sources */,
+				DB942F53256AA3F400CDA0C3 /* CellCVCell.swift in Sources */,
+				DB9CD4D4256C3AC700356563 /* BoardController.swift in Sources */,
 				DB942F42256AA35300CDA0C3 /* ViewController.swift in Sources */,
 				DB942F3E256AA35300CDA0C3 /* AppDelegate.swift in Sources */,
+				DB43D60B256ECBD40056A9BF /* Sudoko.swift in Sources */,
+				DB43D607256E44620056A9BF /* GameController.swift in Sources */,
+				DB942F57256AAF5E00CDA0C3 /* Raster.swift in Sources */,
 				DB942F40256AA35300CDA0C3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
